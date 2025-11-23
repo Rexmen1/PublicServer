@@ -19,7 +19,7 @@ language: en
 
 # If enabled, CoreProtect will check for updates when your server starts up.
 # If an update is available, you'll be notified via your server console.
-check-updates: true
+check-updates: false
 
 # If enabled, other plugins will be able to utilize the CoreProtect API.
 api-enabled: true
@@ -40,7 +40,7 @@ max-radius: 100
 rollback-items: true
 
 # If enabled, entities, such as killed animals, will be included in rollbacks.
-rollback-entities: true
+rollback-entities: false
 
 # If enabled, generic data, like zombies burning in daylight, won't be logged.
 skip-generic-data: true
@@ -145,4 +145,4 @@ player-sessions: true
 username-changes: true
 
 # Logs changes made via the plugin "WorldEdit" if it's in use on your server.
-worldedit: false
+worldedit: true
